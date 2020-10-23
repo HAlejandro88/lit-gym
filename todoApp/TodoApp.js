@@ -39,14 +39,14 @@ class Todoapp extends LitElement {
 
     async remove({ detail }) {
         console.log(detail);
-        this.todos = this.todos.filter((todo,index) => index !== detail);
+        /* this.todos = this.todos.filter((todo,index) => index !== detail); */
+        this.todos = this.todos.filter(todo => todo.id !== detail)
         await this.requestUpdate();
     }
 
     
     async toogle({ detail }) {
         this.todos = this.todos.map((todo, index) => {
-            console.log(todo)
             const { checked, id } = todo;
             if (index === detail) {
                 return { ...todo, checked: !checked }
@@ -54,7 +54,6 @@ class Todoapp extends LitElement {
                 return { ...todo }
             }
         });
-        debugger
         await this.requestUpdate();
         console.log(this.todos)
     }

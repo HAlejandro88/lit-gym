@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit-element';
 
 class TodoListItem extends LitElement {
-    properties() {
+    static get properties() {
         return {
            todo: Object,
            index: Number
@@ -37,14 +37,15 @@ class TodoListItem extends LitElement {
                 <p class="${this.todo.checked ? 'complete': ''}">
                     ${this.todo.desc}
                 </p>
-                <button @click="${this.remove}">Remove</button>
+                <button @click="${this.remove}" removeItem="${this.todo.id}">Remove</button>
             </div>
         `;
     }
 
     remove(e) {
+        const id = e.currentTarget.getAttribute('removeItem');
        this.dispatchEvent(new CustomEvent('remove-item', {
-           detail: this.index
+           detail: id
        }));
     }
 

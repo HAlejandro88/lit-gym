@@ -3,9 +3,8 @@ import { LitElement, html, css } from 'lit-element';
 class TodoListItem extends LitElement {
     properties() {
         return {
-            desc: String,
-            id: String,
-            checked: Boolean
+           todo: Object,
+           index: Number
         }
     }
 
@@ -23,37 +22,36 @@ class TodoListItem extends LitElement {
 
     constructor() {
         super();
-        this.desc = '';
-        this.id = '';
-        this.checked = false;
+        this.todo = {
+            checked: false,
+            desc: '',
+            id: ''
+        };
+        this.index = 0;
     }
 
     render() {
         return html`
             <div>
-                <p class="${this.checked ? 'complete' : 'normal'}" .checked="${this.checked}" @click="${this.toogle}" itemChecked="${this.id}">
-                    ${this.desc}
+                <input type="checkbox"  ?checked="${this.todo.checked}" @click="${this.toogle}"/>
+                <p class="${this.todo.checked ? 'complete': ''}">
+                    ${this.todo.desc}
                 </p>
-                <button @click="${this.remove}" itemRemove="${this.id}">Remover</button>
+                <button @click="${this.remove}">Remove</button>
             </div>
         `;
     }
 
     remove(e) {
-        const id = e.currentTarget.getAttribute('itemRemove');
-        console.log(id);
-        this.dispatchEvent(new CustomEvent('remove-item', {
-            detail: id
-        }))
+       this.dispatchEvent(new CustomEvent('remove-item', {
+           detail: this.index
+       }));
     }
 
     toogle(e) {
-        const id = e.currentTarget.getAttribute('itemChecked');
-        this.dispatchEvent(new CustomEvent('checked-item', {
-            bubbles: true,
-            composed: true,
-            detail: id
-        }))
+       this.dispatchEvent(new CustomEvent('toogle-item', {
+           detail: this.index
+       }));
     }
 
 }

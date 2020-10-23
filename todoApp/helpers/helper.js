@@ -1,4 +1,3 @@
-let conteiner = document.querySelector('#conteiner');
         let arregloUno = [
             {nombre:'Alejandro', edad: 25, apellidos: 'Soto Garcia', carrera: 'Mecatronica', img:'', checked:false},
             {nombre:'Carina', edad: 25, apellidos: 'torres palcaios', carrera: 'PYMES', img:'', checked:false},
@@ -14,18 +13,18 @@ let conteiner = document.querySelector('#conteiner');
                     return newarray.push(item.apellidos);
                 }
             });
-           console.log(newarray)
+        console.log(newarray)
         } 
 
-       const repasoMap2 = (indice) => {
+    const repasoMap2 = (indice) => {
             arregloUno = arregloUno.map((item, index) => {
                 return index === indice ? { ...item, checked: !item.checked } : item
             });
             console.log(arregloUno);
-       }
+    }
 
-       function eliminar(position) {
-            arregloUno = arregloUno.splice(position, 1);
-       }
+    function eliminar(position) {
+        arregloUno = arregloUno.splice(position, 1);
+    }
 
-       repasoMap2(2);
+    console.log(repasoMap2(2));

@@ -6,7 +6,7 @@ class CardPersonal extends LitElement {
         return {
            img: String,
            title: String,
-           desc: String,
+           description: String,
            sub_title: String
         };
     }
@@ -20,14 +20,14 @@ class CardPersonal extends LitElement {
     static get styles() {
         return css`
         :host {
-            width: 100vh;
-            height: 100vh;
+            width: 400px;
+            height: 680px;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: black;
             overflow: hidden;
-        }
+            margin: 5px;
+        } 
 
         .card {
             display: grid;
@@ -66,6 +66,7 @@ class CardPersonal extends LitElement {
         .card-text h2 {
             margin-top: 0px;
             font-size: 28px;
+            text-transform: capitalize;
         }
 
         .card-stats {
@@ -113,11 +114,9 @@ class CardPersonal extends LitElement {
             <div class="card">
                 <div class="card-image"></div>
                 <div class="card-text">
-                    <span class="date">4 days ago</span>
-                    <h2>Post One</h2>
-                    <p>
-                        lslslslsllslslslsllslslslslslslsllslsllssls
-                        lslslsllslslslsllslslslslslslsllslslls</p>
+                    <span class="date">${this.sub_title}</span>
+                    <h2>${this.title}</h2>
+                    <p>${this.description}</p>
                 </div>
                 <div class="card-stats">
                     <div class="stat">

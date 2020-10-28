@@ -9,7 +9,8 @@
   "author": "Alejandro Soto",
   "license": "ISC",
   "dependencies": {
-    "lit-element": "2.4.0",
-    "es-dev-server": "^1.57.8"
+    "@vaadin/vaadin-icons": "^4.3.1",
+    "es-dev-server": "^1.57.8",
+    "lit-element": "2.4.0"
   }
 }

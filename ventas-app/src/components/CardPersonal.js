@@ -4,10 +4,10 @@ import { LitElement, html, css } from 'lit-element';
 class CardPersonal extends LitElement {
     static get properties() {
         return {
-           img: String,
-           title: String,
-           description: String,
-           sub_title: String
+            img: String,
+            title: String,
+            description: String,
+            sub_title: String
         };
     }
 

@@ -5,9 +5,7 @@ class CounterComponent extends LitElement {
     static get properties() {
         return { 
             title_one: String,
-            sub_title_one: String,
             title_two: String,
-            sub_title_two: String,
             counter_one: Number,
             counter_two: Number,
          };
@@ -46,10 +44,10 @@ class CounterComponent extends LitElement {
             font-size: 20px;
         }
 
-        .counter-one h2 {
+        /* .counter-one h2 {
             font-size: 38px;
             color: grey;
-        }
+        }  */
 
         .counter-two {
             grid-template: two;
@@ -63,15 +61,45 @@ class CounterComponent extends LitElement {
             font-size: 20px;
         }
 
-        .counter-two h2 {
+        .counter {
             font-size: 38px;
             color: grey;
+        }
+
+        .aux {
+            margin-bottom: 3px;
         }
         `
     }
 
     constructor() {
         super();
+        this.title_one = '';
+        this.title_two = '';
+        this.counter_one = 0;
+        this.counter_two = 0;
+    }
+
+    firstUpdated(changedProperties) {
+        const counterSucursal = this.shadowRoot.querySelectorAll('.aux');
+        const speed = 200;
+
+        counterSucursal.forEach(counter => {
+            const UpdateCount = () => {
+                const target = +counter.getAttribute('data-target');
+                const count =  +counter.textContent;
+        
+                 const inc = target / speed;
+
+                if (count < target) {
+                     counter.textContent = Math.ceil(count + inc);
+                     setTimeout(UpdateCount, 1)
+                } else {
+                    count.textContent = target;
+                }
+            }
+            UpdateCount(); 
+        })
     }
 
     render() {
@@ -79,14 +107,16 @@ class CounterComponent extends LitElement {
             <div class="counter">
                 <div class="counter-one">
                     <h4>${this.title_one}gayol</h4>
-                    <h2>${this.counter_one}50</h2>
+                    <h2 class="aux" data-target="${this.counter_one}">0</h2>
                 </div>
                 <div class="counter-two">
                     <h4>${this.title_two}providencia</h4>
-                    <h2>${this.counter_two}40</h2>
+                    <h2 class="aux" data-target="${this.counter_two}">0</h2>
                 </div>
             </div>
         `
     }
+
+    
 }
 customElements.define('counter-component', CounterComponent);

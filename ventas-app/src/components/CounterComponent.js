@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit-element';
+import '@vaadin/vaadin-icons/vaadin-icons.js';
 
 class CounterComponent extends LitElement {
     
@@ -8,7 +9,7 @@ class CounterComponent extends LitElement {
             title_two: String,
             counter_one: Number,
             counter_two: Number,
-         };
+        };
     }
     
     static get styles() {
@@ -38,7 +39,7 @@ class CounterComponent extends LitElement {
         }
 
         .counter-one h4 {
-            margin-top: 0px;
+            margin-top: 5px;
             margin-bottom: 5px;
             text-transform: capitalize;
             font-size: 20px;
@@ -55,7 +56,7 @@ class CounterComponent extends LitElement {
         }
 
         .counter-two h4 {
-            margin-top: 0px;
+            margin-top: 5px;
             margin-bottom: 5px;
             text-transform: capitalize;
             font-size: 20px;
@@ -68,6 +69,9 @@ class CounterComponent extends LitElement {
 
         .aux {
             margin-bottom: 3px;
+
+        iron-icon {
+            color: #BEC606;
         }
         `
     }
@@ -106,10 +110,12 @@ class CounterComponent extends LitElement {
         return html`
             <div class="counter">
                 <div class="counter-one">
+                    <iron-icon icon="vaadin:lightbulb"></iron-icon>
                     <h4>${this.title_one}gayol</h4>
                     <h2 class="aux" data-target="${this.counter_one}">0</h2>
                 </div>
                 <div class="counter-two">
+                    <iron-icon icon="vaadin:lightbulb"></iron-icon>
                     <h4>${this.title_two}providencia</h4>
                     <h2 class="aux" data-target="${this.counter_two}">0</h2>
                 </div>
@@ -117,6 +123,18 @@ class CounterComponent extends LitElement {
         `
     }
 
-    
+    increment() {
+        this.dispatchEvent(new CustomEvent('increment-counter', {
+            detail: (sucursal) => {
+                if (sucursal === 'gayol') {
+                    this.counter_one++;
+                }
+                else {
+                    this.counter_two++;
+                }
+            }
+        }))
+    }
+
 }
 customElements.define('counter-component', CounterComponent);

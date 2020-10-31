@@ -24,8 +24,8 @@ class VentasApp extends LitElement {
 
     constructor() {
         super();
-        this.counterUno = 0;
-        this.counterDos = 0;
+        this.counterUno = 30;
+        this.counterDos = 60;
         this.cards = 
         [
             { 
@@ -58,24 +58,25 @@ class VentasApp extends LitElement {
 
     render() {
         return html`
-            <counter-component .counter_one="${this.counterUno}" .counter_dos="${this.counterDos}">
+            <counter-component .counter_dos="${this.counterDos}" 
+                @counter-incremented="${this.onIncremented}"
+                @increment-failed="${this.onIncrementedFailed}">
             </counter-component>
             <button @click="${this.increment}">Incrementar</button>
-            ${this.cards.map(card => html`
-                <card-personal 
-                    .img="${card.img}"
-                    .title="${card.title}"
-                    .description="${card.description}"
-                    .sub_title="${card.subTitulo}">
-                </card-personal>
-            `)}
         `;
     }
 
-    async increment(e) {
-        this.counterUno++;
-        console.log(this.counterUno)
-        await this.requestUpdate();
+    increment(e) {
+        const counter = this.shadowRoot.querySelector('counter-component');
+        counter.increment();
+    }
+
+    onIncremented({ detail }) {
+        console.log(`el contador: ${detail.counter} tiene como nuevo valor: ${detail.value}`);
+    }
+
+    onIncrementedFailed() {
+        console.log('no se pudo incrementar')
     }
 
 

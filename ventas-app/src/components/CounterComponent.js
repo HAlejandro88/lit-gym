@@ -7,7 +7,12 @@ class CounterComponent extends LitElement {
         return { 
             title_one: String,
             title_two: String,
-            counter_one: Number,
+            counter_one: {
+                type: Number,
+                hasChanged(newValue, oldValue) {
+                    return newValue !== oldValue;
+                }
+            },
             counter_two: Number,
         };
     }
@@ -68,7 +73,8 @@ class CounterComponent extends LitElement {
         }
 
         .aux {
-            margin-bottom: 3px;
+            margin: 0;
+        }
 
         iron-icon {
             color: #BEC606;
@@ -80,26 +86,27 @@ class CounterComponent extends LitElement {
         super();
         this.title_one = '';
         this.title_two = '';
-        this.counter_one = 0;
+        this.counter_one = 60;
         this.counter_two = 0;
     }
 
-    firstUpdated(changedProperties) {
+    updated(changedProperties) {
         const counterSucursal = this.shadowRoot.querySelectorAll('.aux');
         const speed = 200;
 
         counterSucursal.forEach(counter => {
             const UpdateCount = () => {
-                const target = +counter.getAttribute('data-target');
+                const _counter = counter.getAttribute('data-target');
+                const target = +this[_counter];
                 const count =  +counter.textContent;
         
-                 const inc = target / speed;
+                const inc = target / speed;
 
                 if (count < target) {
-                     counter.textContent = Math.ceil(count + inc);
-                     setTimeout(UpdateCount, 1)
+                    counter.textContent = Math.ceil(count + inc);
+                    setTimeout(UpdateCount, 1)
                 } else {
-                    count.textContent = target;
+                    counter.textContent = target;
                 }
             }
             UpdateCount(); 
@@ -111,29 +118,31 @@ class CounterComponent extends LitElement {
             <div class="counter">
                 <div class="counter-one">
                     <iron-icon icon="vaadin:lightbulb"></iron-icon>
-                    <h4>${this.title_one}gayol</h4>
-                    <h2 class="aux" data-target="${this.counter_one}">0</h2>
+                    <h4>gayol</h4>
+                    <h2 class="aux" data-target="counter_one">0</h2>
                 </div>
                 <div class="counter-two">
                     <iron-icon icon="vaadin:lightbulb"></iron-icon>
                     <h4>${this.title_two}providencia</h4>
-                    <h2 class="aux" data-target="${this.counter_two}">0</h2>
+                    <h2 class="aux" data-target="counter_two">0</h2>
                 </div>
             </div>
         `
     }
 
-    increment() {
-        this.dispatchEvent(new CustomEvent('increment-counter', {
-            detail: (sucursal) => {
-                if (sucursal === 'gayol') {
-                    this.counter_one++;
+    async increment() {
+        this.counter_one++;
+        try {
+            await this.requestUpdate();
+            this.dispatchEvent(new CustomEvent('counter-incremented', {
+                detail: {
+                    value: this.counter_one,
+                    counter: 'counter_one'
                 }
-                else {
-                    this.counter_two++;
-                }
-            }
-        }))
+            }))
+        } catch (error) {
+            this.dispatchEvent(new CustomEvent('increment-failed'))
+        }
     }
 
 }

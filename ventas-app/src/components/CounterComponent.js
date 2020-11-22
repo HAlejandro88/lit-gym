@@ -86,8 +86,8 @@ class CounterComponent extends LitElement {
         super();
         this.title_one = '';
         this.title_two = '';
-        this.counter_one = 60;
-        this.counter_two = 0;
+        this.counter_one = 1000;
+        this.counter_two = 2000;
     }
 
     updated(changedProperties) {

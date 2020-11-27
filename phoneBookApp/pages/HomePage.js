@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit-element';
-
+import '../components/AddContact';
 class HomePage extends LitElement {
     static get properties() {
         return {}
@@ -15,12 +15,11 @@ class HomePage extends LitElement {
 
     render() {
         return html`
-            <h1>Home Page</h1>
-            <p>
-                bienveniodos a home page
-            </p>
+            <add-contact @add-contact="${this.addContact}"></add-contact>
         `;
     }
+
+
 }
 
 window.customElements.define('home-page', HomePage);

@@ -1450,7 +1450,19 @@
     "@vaadin/vaadin-development-mode-detector" "^2.0.0"
     "@vaadin/vaadin-usage-statistics" "^2.1.0"
 
-"@vaadin/vaadin-grid@^5.7.5":
+"@vaadin/vaadin-form-layout@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-form-layout/-/vaadin-form-layout-2.3.0.tgz#9403d7598b0aea783a6fd515e72ca070520fb2a5"
+  integrity sha512-uEmTtJRT7TokIaXMwO96PZ9CLSosfgGKLv3RtC/IltDeH+K2nmmaEcmlcteAOevCyXGShA4fwHp9MoODSPZv1Q==
+  dependencies:
+    "@polymer/iron-resizable-behavior" "^3.0.0"
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/vaadin-element-mixin" "^2.4.1"
+    "@vaadin/vaadin-lumo-styles" "^1.6.0"
+    "@vaadin/vaadin-material-styles" "^1.3.2"
+    "@vaadin/vaadin-themable-mixin" "^1.6.1"
+
+"@vaadin/vaadin-grid@^5.7.7":
   version "5.7.7"
   resolved "https://registry.yarnpkg.com/@vaadin/vaadin-grid/-/vaadin-grid-5.7.7.tgz#4b1855d0ed3da0dd66c9aa4b959b0bc7d85840f8"
   integrity sha512-g2KUOidaBLtuJ5/4MUZ/Ldop/l4yP8faRO//L5oLAV4duOEWesWgNe4icSlk1zvu6PABWYcy0NHhh5Ftju7sZg==

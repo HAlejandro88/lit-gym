@@ -90,11 +90,6 @@ class MyApp extends router(LitElement) {
             </main-outlet>
           </div>
       </vaadin-app-layout>
-      
-      
-      
- 
-      
     `;
   }
 }

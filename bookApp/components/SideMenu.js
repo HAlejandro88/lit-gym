@@ -8,7 +8,7 @@ class SideMenu extends LitElement {
     static get styles() {
         return css`
             #side-menu {
-              
+              color: white;
             }
         `;
     }

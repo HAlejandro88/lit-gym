@@ -2,6 +2,7 @@ import { LitElement, html, css } from 'lit-element';
 import '@vaadin/vaadin-grid/vaadin-grid';
 import '@vaadin/vaadin-grid/vaadin-grid-column';
 import '@vaadin/vaadin-grid/vaadin-grid-filter';
+
 class DashboardPage extends LitElement {
     static get properties() {
         return {

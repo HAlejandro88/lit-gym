@@ -1,0 +1,17 @@
+{
+  "name": "rickandmorty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seve": "es-dev-server --app-index index.html --node-resolve --watch"
+  },
+  "author": "Alejandro Soto",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "es-dev-server": "^2.0.2"
+  }
+}

@@ -14,7 +14,7 @@ class SocialMediaApp extends LitElement {
         }
     }
 
-    static get styles () {
+    static get styles() {
         return css`
           :host {
             display: block;
@@ -33,7 +33,7 @@ class SocialMediaApp extends LitElement {
             background: hsl(230, 17%, 14%);
             color: hsl(0, 0%, 100%);
           }
-          :host([dark]) gv-component, :host([dark]) ov-component {
+          :host([dark]) general-view, :host([dark]) over-view {
             background: hsl(228, 28%, 20%);
             color: hsl(228, 34%, 66%);
             --nums-color: hsl(0, 0%, 100%);

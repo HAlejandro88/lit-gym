@@ -5,12 +5,23 @@
   "main": "index.js",
   "scripts": {
     "serve:open": "es-dev-server --app-index index.html --node-resolve --watch --open",
-    "serve": "es-dev-server --app-index index.html --node-resolve --watch"
+    "serve": "es-dev-server --app-index index.html --node-resolve --watch",
+    "build": "rimraf dist && rollup -c rollup.config.js"
   },
   "author": "Alejandro Soto",
   "license": "ISC",
   "dependencies": {
     "lit-element": "^2.4.0",
     "es-dev-server": "^2.0.2"
+  },
+  "devDependencies": {
+    "rollup": "^2.33.1",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "rollup-plugin-filesize": "^9.0.2",
+    "rollup-plugin-copy": "^3.3.0",
+    "rimraf": "^3.0.2",
+    "rollup-plugin-uglify": "^6.0.4",
+    "terser": "^5.5.1",
+    "@lopatnov/rollup-plugin-uglify": "^2.1.0"
   }
 }

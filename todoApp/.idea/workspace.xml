@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9628cd2-b00e-461e-95bf-ba41e37324bb" name="Default Changelist" comment="">
+    <list default="true" id="ec7eca32-e87b-4c1a-a3e3-0bef148c443e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/lit-gym.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IntermediateLitElement/ComputedProperties.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IntermediateLitElement/FirstUpdate.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IntermediateLitElement/LightDom.js" afterDir="false" />
@@ -20,9 +19,6 @@
       <change afterPath="$PROJECT_DIR$/../IntermediateLitElement/reflectAttribute.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IntermediateLitElement/slotting.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../advanceLitElement/until-directive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Routing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NotFoundPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SimpleContact.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lit-basic/FetchingData.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lit-basic/FiringEvents.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lit-basic/HandleEvents.js" afterDir="false" />
@@ -34,23 +30,14 @@
       <change afterPath="$PROJECT_DIR$/../lit-basic/UpdateArraysAndObjects.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lit-basic/package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lit-basic/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todoApp/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todoApp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todoApp/.idea/todoApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todoApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todoApp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todoApp/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todoApp/test/todo-app.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ContactList.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ContactList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SideMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SideMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/todoApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TodoApp.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todoApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todoApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todoApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todoApp/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +47,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -68,42 +54,55 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1lLYbp2ItxRi5GfbhP3whbxbjyb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1m1rmbMXLDeZXVnI4uGadLr7RVj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.serve:open">
-    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="serve" />
-      </scripts>
+  <component name="RunManager" selected="npm.test">
+    <configuration name="suite case" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="" />
+      <working-directory value="$PROJECT_DIR$" />
       <node-interpreter value="project" />
       <envs />
+      <scope-kind value="SUITE" />
+      <test-file-path value="$PROJECT_DIR$/test/TodoApp.spec.js" />
+      <test-names>
+        <test-name value="suite case" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="serve:open" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="suite case.Case default" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file-path value="$PROJECT_DIR$/test/TodoApp.spec.js" />
+      <test-names>
+        <test-name value="suite case" />
+        <test-name value="Case default" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="serve:open" />
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -111,24 +110,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.serve:open" />
-        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Karma.suite case" />
+        <item itemvalue="Karma.suite case.Case default" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d9628cd2-b00e-461e-95bf-ba41e37324bb" name="Default Changelist" comment="" />
-      <created>1607377914597</created>
+      <changelist id="ec7eca32-e87b-4c1a-a3e3-0bef148c443e" name="Default Changelist" comment="" />
+      <created>1608672099081</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607377914597</updated>
-      <workItem from="1607377916507" duration="1479000" />
-      <workItem from="1607379748697" duration="21000" />
-      <workItem from="1607385292978" duration="1322000" />
-      <workItem from="1607399903104" duration="1599000" />
-      <workItem from="1609438699938" duration="5685000" />
+      <updated>1608672099081</updated>
+      <workItem from="1608672100739" duration="911000" />
+      <workItem from="1608743861367" duration="30000" />
     </task>
     <servers />
   </component>
@@ -146,8 +143,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

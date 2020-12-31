@@ -4,20 +4,26 @@ import './components/ContentArea';
 
 class BookApp extends LitElement {
     static get properties() {
-        return {}
+        return {
+            pages: Array
+        }
     }
 
     constructor() {
         super();
-        this.user = ['hola'];
-        console.log(this.user);
+        this.pages = [
+            { name: 'Contact', href: '/contacts' },
+            { name: 'Contact List', href: '/list' },
+            { name: 'home', href: '/home' },
+        ];
     }
-// TOD0: ver como funciona el debbuger;
+
+
     render() {
         return html`
+                <h2>hola</h2>
             <div class="main-page">
-                <side-menu></side-menu>
-                <content-area></content-area>
+                <side-menu .options="${this.pages}" ></side-menu>
             </div>
         `;
     }

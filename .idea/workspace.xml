@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91a9e0a2-136d-4e3f-be13-732b24833896" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lit-gym.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/ComputedProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/FirstUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/LightDom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/QueryDom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/Updated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/lifecycle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/reflectAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntermediateLitElement/slotting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanceLitElement/until-directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/FetchingData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/FiringEvents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/HandleEvents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/ManageProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/PasingProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/PropertiesAn Attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/PropertyChanges.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/RepeatTemplates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/UpdateArraysAndObjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-basic/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phoneBookApp/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phoneBookApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phoneBookApp/.idea/phoneBookApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phoneBookApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoApp/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoApp/.idea/todoApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoApp/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoApp/test/todo-app.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneBookApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneBookApp/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneBookApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneBookApp/components/AddContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/components/AddContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneBookApp/components/MyApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/components/MyApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneBookApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneBookApp/pages/DashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/pages/DashboardPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneBookApp/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneBookApp/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todoApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todoApp/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lgIbv11JW5zukk9sVmj3B6a9qU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Karma.suite case.Case default">
+    <configuration name="suite case (1)" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/todoApp/karma.conf.js" />
+      <karma-package-dir value="" />
+      <working-directory value="$PROJECT_DIR$/todoApp" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file-path value="$PROJECT_DIR$/todoApp/test/todo-app.spec.js" />
+      <test-names>
+        <test-name value="suite case" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="suite case" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/todoApp/karma.conf.js" />
+      <karma-package-dir value="" />
+      <working-directory value="$PROJECT_DIR$/todoApp" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file-path value="$PROJECT_DIR$/todoApp/test/TodoApp.spec.js" />
+      <test-names>
+        <test-name value="suite case" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="suite case.Case default" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/todoApp/karma.conf.js" />
+      <karma-package-dir value="" />
+      <working-directory value="$PROJECT_DIR$/todoApp" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file-path value="$PROJECT_DIR$/todoApp/test/todo-app.spec.js" />
+      <test-names>
+        <test-name value="suite case" />
+        <test-name value="Case default" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="karma" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/todoApp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="karma" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/todoApp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karma.suite case.Case default" />
+        <item itemvalue="Karma.suite case (1)" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.karma" />
+        <item itemvalue="Karma.suite case" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91a9e0a2-136d-4e3f-be13-732b24833896" name="Default Changelist" comment="" />
+      <created>1608012385491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608012385491</updated>
+      <workItem from="1608012388631" duration="5594000" />
+      <workItem from="1608748154786" duration="739000" />
+      <workItem from="1609284849839" duration="894000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+{
+  "name": "lit-basic",
+  "version": "1.0.0",
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  }
+}

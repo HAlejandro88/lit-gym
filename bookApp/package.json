@@ -10,6 +10,7 @@
   "author": "Alejandro Soto",
   "license": "ISC",
   "dependencies": {
+    "@vaadin/router": "^1.7.2",
     "lit-element": "^2.4.0"
   },
   "devDependencies": {

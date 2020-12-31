@@ -1,0 +1,13 @@
+{
+  "name": "IntermediateLitElement",
+  "version": "1.0.0",
+  "scripts": {
+    "serve:open": "es-dev-server --app-index index.html --node-resolve --watch --open"
+  },
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.60.1"
+  }
+}

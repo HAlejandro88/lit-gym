@@ -4,7 +4,8 @@ import './TodoListItem';
 class Todoapp extends LitElement {
     static get properties() {
         return {
-            todos: { type: Array }
+            todos: { type: Array },
+            label: String
         }
     }
 
@@ -20,7 +21,8 @@ class Todoapp extends LitElement {
                 { checked: false, id: "3", desc: 'terminar lit' },
                 { checked: false, id: "4", desc: 'terminar react' },
                 { checked: false,  id: "5", desc: 'cloud computing' },
-        ]
+        ];
+        this.label = '';
     }
 
 

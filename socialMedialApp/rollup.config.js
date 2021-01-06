@@ -20,7 +20,8 @@ const copyConfig = {
             dest:'dist',
             transform: (content) =>
                 content.toString().replace('./src/index.js', `./${name}`)
-        }
+        },
+        { src: 'images/**/*', dest: 'dist/images' },
     ]
 };
 

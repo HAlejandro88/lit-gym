@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "es-dev-server --node-resolve --watch",
-    "karma": "karma",
-    "test": "karma start"
+    "karma": "karma --watch",
+    "test": "karma start --coverage"
   },
   "author": "alejandro Soto",
   "license": "ISC",

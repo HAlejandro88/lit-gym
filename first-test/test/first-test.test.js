@@ -1,3 +1,4 @@
+import { stub } from 'sinon';
 import { html, fixture, expect } from '@open-wc/testing';
 
 import '../FirstTest';
@@ -13,12 +14,17 @@ describe('one test', () => {
         expect(el).lightDom.to.equal('');
     });
 
-    it('show hellow World in the component',async () => {
+    it('show hello World in the component',async () => {
+        const template = `
+            <h1>Hello World</h1>
+            <h6> el contador es 0</h6>
+            <button>click</button>
+        `;
         const element = (await fixture(html`<first-test></first-test>`));
-        expect(element).to.shadowDom.to.equal(`<h1>Hello World</h1>`)
+        expect(element).to.shadowDom.to.equal(template)
     });
 
-    it('label propertie is empty', async () => {
+    it('label property is empty', async () => {
         const element = (await fixture('<first-test></first-test>'));
         expect(element.label).to.equal('');
     });
@@ -35,6 +41,27 @@ describe('one test', () => {
         element.label = 'alex'
         expect(element.label).to.equal('alex');
     });
+
+
+    it('calls myFunction when a button is clicked', async () => {
+        const el = await fixture(html`<first-test></first-test>`);
+        const myFunctionStub = stub(el, 'increment');
+        el.requestUpdate();
+        await el.updateComplete;
+        el.shadowRoot.querySelector('button').click();
+        expect(myFunctionStub).to.have.callCount(1);
+    });
+
+    it('incremeta en uno cuando se le da click al boton', async () => {
+        const element = await fixture(html`<first-test></first-test>`);
+        element.requestUpdate();
+        await element.updateComplete;
+        element.shadowRoot.querySelector('button').click();
+        expect(element.count).to.equal(1);
+    })
+
 })
 
 // TODO: TEST COMPONENT IN FIRSTUPDATE, FETCH, CUSTOMEVENTS, FUNCTIONS
+
+

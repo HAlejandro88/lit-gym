@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "web-dev-server --node-resolve --open",
-    "test:watch": "karma --watch",
-    "test": "karma start"
+    "test": "karma start",
+    "test:coverage": "karma start --coverage",
+    "test:watch": "karma start --auto-watch=true --single-run=false",
+    "test:update-snapshots": "karma start --update-snapshots",
+    "test:prune-snapshots": "karma start --prune-snapshots"
   },
   "dependencies": {
     "lit-element": "^2.4.0"
@@ -12,6 +15,7 @@
   "devDependencies": {
     "@web/dev-server": "^0.1.3",
     "@open-wc/testing": "^2.5.32",
-    "@open-wc/testing-karma": "^4.0.9"
+    "@open-wc/testing-karma": "^4.0.9",
+    "sinon": "^9.2.3"
   }
 }

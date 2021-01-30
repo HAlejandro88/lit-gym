@@ -2,26 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a9e0a2-136d-4e3f-be13-732b24833896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/phoneBookApp/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/phoneBookApp/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/phoneBookApp/.idea/phoneBookApp.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/phoneBookApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/TodoApp.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/TodoListItem.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/block-navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/lcov.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/sort-arrow-sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/coverage/Chrome Headless 87.0.4280.141 (Mac OS 11.0.0)/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/.idea/reduxApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/ReduxApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/actions/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/reducers/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduxApp/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-test/FirstTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/first-test/FirstTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/first-test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-test/test/first-test.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/first-test/test/first-test.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/phoneBookApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phoneBookApp/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/phoneBookApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/README.md" afterDir="false" />
@@ -31,6 +30,9 @@
       <change beforePath="$PROJECT_DIR$/phoneBookApp/pages/DashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/pages/DashboardPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phoneBookApp/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/pages/HomePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phoneBookApp/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/phoneBookApp/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventas-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ventas-app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventas-app/src/components/CounterElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/ventas-app/src/components/CounterElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +78,9 @@
       <recent name="$PROJECT_DIR$/first-test" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test (1)">
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/first-test/package.json" />
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ventas-app/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -87,18 +89,18 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/first-test/package.json" />
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/SuperTable/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test" />
+        <script value="serve" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/todoApp/package.json" />
+    <configuration name="test (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/first-test/package.json" />
       <command value="run" />
       <scripts>
         <script value="test" />
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.test (1)" />
         <item itemvalue="npm.test:update-snapshots" />
         <item itemvalue="npm.test:watch" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +159,13 @@
       <workItem from="1610343881418" duration="17000" />
       <workItem from="1610479050286" duration="1290000" />
       <workItem from="1610483580298" duration="354000" />
+      <workItem from="1610991264156" duration="10000" />
+      <workItem from="1611613280218" duration="2751000" />
+      <workItem from="1611643010236" duration="1216000" />
+      <workItem from="1611680091584" duration="4000" />
+      <workItem from="1611710643125" duration="526000" />
+      <workItem from="1611773805980" duration="29000" />
+      <workItem from="1612031847980" duration="946000" />
     </task>
     <servers />
   </component>

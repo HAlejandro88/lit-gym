@@ -1,0 +1,22 @@
+{
+  "name": "reduxApp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open"
+  },
+  "dependencies": {
+    "@polymer/paper-input": "^3.2.1",
+    "@vaadin/vaadin-combo-box": "^5.4.7",
+    "@vaadin/vaadin-item": "^2.3.0",
+    "@vaadin/vaadin-list-box": "^1.4.0",
+    "@vaadin/vaadin-select": "^2.4.0",
+    "lit-element": "^2.4.0",
+    "nanoid": "^3.1.20",
+    "pwa-helpers": "^0.9.1",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.5"
+  }
+}

@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/phoneBookApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reduxApp" vcs="Git" />
   </component>
 </project>
